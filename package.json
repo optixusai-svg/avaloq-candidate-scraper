@@ -1,0 +1,33 @@
+{
+  "name": "avaloq-candidate-scraper",
+  "version": "1.0.0",
+  "description": "Automated LinkedIn Avaloq candidate sourcing system using Google Custom Search API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scraper.js",
+    "dev": "nodemon server.js",
+    "test": "node scraper.js"
+  },
+  "keywords": [
+    "linkedin",
+    "scraper",
+    "recruitment",
+    "avaloq",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
